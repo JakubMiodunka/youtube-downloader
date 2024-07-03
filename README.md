@@ -9,7 +9,7 @@
 - [*FFmpeg*](https://ffmpeg.org/)
 - [*pytube*](https://github.com/pytube/pytube/tree/master)
 
-### Installation
+## Installation
 
 1. Prepare Linux-based machine with at least 1.4 GB of RAM memory.
 2. Make sure, that machine has web access.
@@ -26,7 +26,7 @@
 
 If Your use package manager other than *APT*, please adjust above mentioned commands accordingly.
 
-### Usage
+## Usage
 
 1. Print script version:
     > \> python3 YouTubeDownloader.py --version
