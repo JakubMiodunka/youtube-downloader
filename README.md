@@ -3,6 +3,7 @@
 ## Description
 
 *YouTubeDownloader* is a CLI based script, which is capable to download a *YouTube* content in high quality and save it locally for further offline use.
+Since late 2024 script is not operational, due to changes made in **YouTube* API, which are not (yet) supported by *pytube* - still waiting for a fix.
 
 ### Dependencies
 
