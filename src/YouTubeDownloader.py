@@ -173,11 +173,11 @@ class YouTubeVideo:
         using Opus (default codecs for WEBM container).
 
         WEBM container was chosen to be the output format over MP4 due to the fact,
-        that it is well standardised - during trials with MP4 (H264/AAC encoded video and AAC audio) unexpected
+        that it is well standardized - during trials with MP4 (H264/AAC encoded video and AAC audio) unexpected
         compatibility issues with Windows Media Player occurred - program was not able to play 4K 60 FPS videos
         (with FULL HD 30 FPS worked fine). When switched to WEBM problem disappear.
 
-        As YouTube utilise Dynamic Adaptive Streaming over HTTP (DASH), streams containing the best available
+        As YouTube utilize Dynamic Adaptive Streaming over HTTP (DASH), streams containing the best available
         audio and video in a single file (referred in pytube documentation as “progressive" streams) are not available.
         The only way to download the best available quality content is to download video and audio separately
         and then post-process them with software like ffmpeg (suggestion available in pytube documentation).
@@ -226,7 +226,7 @@ def main(arguments: Namespace) -> None:
         print(f"Version: {__version__}")
         return
 
-    # Initialising necessary variables
+    # Initializing necessary variables
     youtube_video = YouTubeVideo(arguments.hyperlink)
     target = Path(arguments.target)
 
